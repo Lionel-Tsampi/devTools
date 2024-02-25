@@ -1,0 +1,9 @@
+# Windows terminal powershell custom
+https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup
+https://github.com/devblackops/Terminal-Icons
+https://www.nerdfonts.com/font-downloads
+https://ohmyposh.dev/docs/segments/docker
+
+## powershell profile content
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\probua.minimal.omp.json" | Invoke-Expression
+Import-Module -Name Terminal-Icons
